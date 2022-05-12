@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e5dc;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 20px 0;
+  background-color: #26495c;
+  color: #c4a35a;
+}
+
+.info input {
+  width: 300px;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin: 5px;
+  background-color: #e5e5dc;
+}
+
+.info button {
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  margin-top: 15px;
+  background-color: #e5e5dc;
+  color: #26495c;
+  border: #26495c solid 1px;
+  border-radius: 1rem;
+}
+
+.info button:hover {
+  cursor: pointer;
+  background-color: #c4c4bd;
+}
+
+.info h1 {
+  padding-bottom: 30px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.users button {
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-color: #26495c;
+  color: #c4a35a;
+  border: #26495c solid 1px;
+  border-radius: 1rem;
+}
+
+.users button:hover {
+  cursor: pointer;
+  background-color: #406174;
+  color: #c4a35a;
+}
+
+.userData {
+  display: flex;
+  padding-top: 50px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.registered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 0px 0 50px 20px;
+  width: 800px;
+  height: 370px;
+  background-color: #26495c;
+  color: #c4a35a;
+  border: black solid 0.5px;
+  box-shadow: rgba(0, 0, 0, 0.63) 0px 5px 15px;
+}
+
+.registered h3 {
+  margin: 20px;
+}
+
+.exist {
+  padding-right: 100px;
+  width: 400px;
+}
+
+.exist h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: #e5e5dc solid 1px;
+}
+
+.update {
+  display: flex;
+  flex-direction: column;
+}
+
+.update h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: #e5e5dc solid 1px;
+}
+
+.update input {
+  width: 200px;
+  height: 20px;
+  margin: 20px 0 0 10px;
+  background-color: #e5e5dc;
+}
+
+.update button {
+  margin-left: 35px;
+  width: 150px;
+  background-color: #e5e5dc;
+  color: #26495c;
+  border: #26495c solid 1px;
+  border-radius: 1rem;
+}
+
+.delete {
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.delete button {
+  background-color: rgba(206, 0, 41, 0.767);
+  color: #e5e5dc;
+  width: 200px;
+}
+
+.delete button:hover {
+  background-color: rgba(161, 0, 32, 0.767);
+  color: #e5e5dc;
+}
